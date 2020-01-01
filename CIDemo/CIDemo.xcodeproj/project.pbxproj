@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C214F42323B90F3D00D02D35 /* CIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DC823B7E4670085B56C /* CIDemoUITests.swift */; };
+		C214F42423B91EB900D02D35 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DD823B7EA060085B56C /* String.swift */; };
 		C23B0DA423B7E45F0085B56C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DA323B7E45F0085B56C /* AppDelegate.swift */; };
-		C23B0DA623B7E45F0085B56C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DA523B7E45F0085B56C /* SceneDelegate.swift */; };
 		C23B0DA823B7E45F0085B56C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DA723B7E45F0085B56C /* LoginViewController.swift */; };
 		C23B0DAB23B7E45F0085B56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23B0DA923B7E45F0085B56C /* Main.storyboard */; };
 		C23B0DAE23B7E45F0085B56C /* CIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DAC23B7E45F0085B56C /* CIDemo.xcdatamodeld */; };
 		C23B0DB023B7E4660085B56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23B0DAF23B7E4660085B56C /* Assets.xcassets */; };
 		C23B0DB323B7E4660085B56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23B0DB123B7E4660085B56C /* LaunchScreen.storyboard */; };
 		C23B0DBE23B7E4670085B56C /* CIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DBD23B7E4670085B56C /* CIDemoTests.swift */; };
-		C23B0DC923B7E4670085B56C /* CIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DC823B7E4670085B56C /* CIDemoUITests.swift */; };
-		C23B0DD923B7EA060085B56C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DD823B7EA060085B56C /* String.swift */; };
+		C23B0E3A23B8F01F0085B56C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C23B0E3923B8F01F0085B56C /* Localizable.strings */; };
+		C240033623BA18C500B16B5D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DD823B7EA060085B56C /* String.swift */; };
+		C240033723BA18C800B16B5D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B0DD823B7EA060085B56C /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 /* Begin PBXFileReference section */
 		C23B0DA023B7E45F0085B56C /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23B0DA323B7E45F0085B56C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C23B0DA523B7E45F0085B56C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C23B0DA723B7E45F0085B56C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C23B0DAA23B7E45F0085B56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C23B0DAD23B7E45F0085B56C /* CIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CIDemo.xcdatamodel; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		C23B0DC823B7E4670085B56C /* CIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDemoUITests.swift; sourceTree = "<group>"; };
 		C23B0DCA23B7E4670085B56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C23B0DD823B7EA060085B56C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C23B0E3923B8F01F0085B56C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +105,15 @@
 		C23B0DA223B7E45F0085B56C /* CIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C23B0DD623B7E9F30085B56C /* Resources */,
+				C23B0E3823B8EF580085B56C /* DeStringer */,
 				C23B0DA323B7E45F0085B56C /* AppDelegate.swift */,
-				C23B0DA523B7E45F0085B56C /* SceneDelegate.swift */,
 				C23B0DA723B7E45F0085B56C /* LoginViewController.swift */,
 				C23B0DA923B7E45F0085B56C /* Main.storyboard */,
 				C23B0DAF23B7E4660085B56C /* Assets.xcassets */,
 				C23B0DB123B7E4660085B56C /* LaunchScreen.storyboard */,
 				C23B0DB423B7E4660085B56C /* Info.plist */,
 				C23B0DAC23B7E45F0085B56C /* CIDemo.xcdatamodeld */,
+				C23B0DD623B7E9F30085B56C /* Resources */,
 			);
 			path = CIDemo;
 			sourceTree = "<group>";
@@ -148,6 +150,14 @@
 				C23B0DD823B7EA060085B56C /* String.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C23B0E3823B8EF580085B56C /* DeStringer */ = {
+			isa = PBXGroup;
+			children = (
+				C23B0E3923B8F01F0085B56C /* Localizable.strings */,
+			);
+			path = DeStringer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C23B0DB323B7E4660085B56C /* LaunchScreen.storyboard in Resources */,
+				C23B0E3A23B8F01F0085B56C /* Localizable.strings in Resources */,
 				C23B0DB023B7E4660085B56C /* Assets.xcassets in Resources */,
 				C23B0DAB23B7E45F0085B56C /* Main.storyboard in Resources */,
 			);
@@ -283,9 +294,8 @@
 			files = (
 				C23B0DAE23B7E45F0085B56C /* CIDemo.xcdatamodeld in Sources */,
 				C23B0DA823B7E45F0085B56C /* LoginViewController.swift in Sources */,
-				C23B0DD923B7EA060085B56C /* String.swift in Sources */,
+				C240033623BA18C500B16B5D /* String.swift in Sources */,
 				C23B0DA423B7E45F0085B56C /* AppDelegate.swift in Sources */,
-				C23B0DA623B7E45F0085B56C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C240033723BA18C800B16B5D /* String.swift in Sources */,
 				C23B0DBE23B7E4670085B56C /* CIDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23B0DC923B7E4670085B56C /* CIDemoUITests.swift in Sources */,
+				C214F42423B91EB900D02D35 /* String.swift in Sources */,
+				C214F42323B90F3D00D02D35 /* CIDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -444,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -460,12 +472,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A693V6KR5;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-Embed.CIDemo";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3embed.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,12 +492,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A693V6KR5;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-Embed.CIDemo";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3embed.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
