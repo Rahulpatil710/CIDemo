@@ -1,5 +1,11 @@
 name: CI
 
+language: objective-c  #1
+osx_image: xcode11.3 #2
+xcode_project: CIDemo.xcodeproj #3
+xcode_scheme: CIDemo #4
+xcode_sdk: iphonesimulator13.2 #5
+
 on:
   push:
     branches:
